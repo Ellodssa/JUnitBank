@@ -33,9 +33,9 @@ public class FirstTest {
         customer.setAccount(new SavingAccount(400.00, 0.03));
         customer = bank.getCustomer(0);
         account = customer.getAccount();
-        account.withdraw(400);
+        account.withdraw(300);
 
-        Assert.assertEquals((int) account.getBalance(), 0);
+        Assert.assertEquals((int) account.getBalance(), 100);
     }
 
     @Test
