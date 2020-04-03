@@ -48,10 +48,24 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ellod\IdeaProjects\JUnitBank\src\main\java\bank" />
       <recent name="C:\Users\Ellod\IdeaProjects\JUnitBank\src\main\java" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.FirstTest">
+    <configuration name="TestBanking (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mybank.test.TestBanking" />
+      <module name="JUnitBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybank.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestBanking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestBanking" />
       <module name="JUnitBank" />
@@ -61,38 +75,27 @@
     </configuration>
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitBank" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.FirstTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.testCheckingAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitBank" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="testCheckingAccount" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.FirstTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FirstTest.testOverdraftLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitBank" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.FirstTest" />
       <option name="METHOD_NAME" value="testOverdraftLimit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTest.testSavingAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitBank" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="testSavingAccount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,10 +104,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FirstTest" />
+        <item itemvalue="JUnit.FirstTest (1)" />
+        <item itemvalue="Application.TestBanking (1)" />
         <item itemvalue="JUnit.FirstTest.testOverdraftLimit" />
         <item itemvalue="Application.TestBanking" />
-        <item itemvalue="JUnit.FirstTest.testCheckingAccount" />
-        <item itemvalue="JUnit.FirstTest.testSavingAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +137,9 @@
       <workItem from="1585938982576" duration="57000" />
       <workItem from="1585939066230" duration="74000" />
       <workItem from="1585939180647" duration="4000" />
-      <workItem from="1585939203724" duration="651000" />
+      <workItem from="1585939203724" duration="1176000" />
+      <workItem from="1585940909588" duration="152000" />
+      <workItem from="1585941085109" duration="39000" />
     </task>
     <servers />
   </component>
@@ -146,22 +151,30 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1716" y="400" width="408" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1080@0.0.2560.1080" timestamp="1585939212875" />
-    <state width="1234" height="291" key="GridCell.Tab.0.bottom" timestamp="1585939661564">
+    <state x="1650" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585940306255">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1234" height="291" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1585939661564" />
-    <state width="1234" height="291" key="GridCell.Tab.0.center" timestamp="1585939661564">
+    <state x="1650" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1585940306255" />
+    <state x="1700" y="295" key="FileChooserDialogImpl" timestamp="1585941059288">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1234" height="291" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1585939661564" />
-    <state width="1234" height="291" key="GridCell.Tab.0.left" timestamp="1585939661564">
+    <state x="1700" y="295" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1585941059288" />
+    <state width="1234" height="291" key="GridCell.Tab.0.bottom" timestamp="1585941296240">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1234" height="291" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1585939661564" />
-    <state width="1234" height="291" key="GridCell.Tab.0.right" timestamp="1585939661564">
+    <state width="1234" height="291" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1585941296240" />
+    <state width="1234" height="291" key="GridCell.Tab.0.center" timestamp="1585941296240">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1234" height="291" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1585939661564" />
+    <state width="1234" height="291" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1585941296240" />
+    <state width="1234" height="291" key="GridCell.Tab.0.left" timestamp="1585941296240">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1234" height="291" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1585941296240" />
+    <state width="1234" height="291" key="GridCell.Tab.0.right" timestamp="1585941296240">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1234" height="291" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1585941296240" />
     <state width="1234" height="363" key="GridCell.Tab.1.bottom" timestamp="1585938945361">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
